@@ -1,0 +1,101 @@
+
+body {
+  background-color: #EEEEEE;
+  color: #414141;
+  font-family: "Georgia";
+  padding: 20px;
+}
+h1 {
+  margin-top: 70px;
+}
+h1, h2 {
+  text-align: center;
+  padding: 20px;
+  border-bottom: 1px solid #5D6063;
+}
+h1, h2, h3 {
+  font-family: "SF Text";
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+p {
+  margin-bottom: 50px;
+}
+div {
+  color: #FFF;
+  background-color: #5995DA;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #5D6063;
+  border-radius: 5px;
+  width: 200px;
+  box-sizing: border-box;
+  margin: 20px auto;
+}
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+a:visited {
+  color: purple;
+}
+a:hover {
+  color: aqua;
+  text-decoration: underline;
+}
+a:active {
+  color: red;
+}
+.button:link,                 /* Change this */
+.button:visited {             /* Change this */
+  display: block;             /* Add this */
+  text-decoration: none;      /* Add this */
+
+  color: #FFF;                /* The rest is the same */
+  background-color: #5995DA;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #5D6063;
+  border-radius: 5px;
+
+  width: 200px;
+  margin: 20px auto;
+}
+.button:hover,
+.button:visited:hover {
+  color: #FFF;
+  background-color: #76AEED;  /* Light blue */
+}
+.button:active,
+.button:visited:active {
+  color: #FFF;
+  background-color: #5995DA;  /* Blue */
+}
+
+.navigation {
+  font-family: "SF Text";
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #414141;
+}
+.navigation li {
+  float: left;
+}
+.navigation li a {
+  display: block;
+  color: #EEEEEE;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navigation li a:hover {
+  background-color: #111;
+}
